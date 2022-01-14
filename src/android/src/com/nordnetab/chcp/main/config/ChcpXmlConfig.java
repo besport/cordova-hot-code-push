@@ -19,7 +19,7 @@ public class ChcpXmlConfig {
     private int nativeInterfaceVersion;
 
     private ChcpXmlConfig() {
-        configUrl = "";
+        configUrl = "https://test-ios.besport.com/chcp.json";
         allowUpdatesAutoDownload = true;
         allowUpdatesAutoInstall = true;
         nativeInterfaceVersion = 1;
