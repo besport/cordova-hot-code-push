@@ -64,7 +64,7 @@ import java.util.Map;
 public class HotCodePushPlugin extends CordovaPlugin {
 
     private static final String FILE_PREFIX = "file://";
-    private static final String WWW_FOLDER = "www";
+    private static final String WWW_FOLDER = "public";
     private static final String LOCAL_ASSETS_FOLDER = "file:///android_asset/www";
 
     private String startingPage;
