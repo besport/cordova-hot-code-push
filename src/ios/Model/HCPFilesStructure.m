@@ -11,7 +11,7 @@
 
 static NSString *const CHCP_FOLDER = @"cordova-hot-code-push-plugin";
 static NSString *const DOWNLOAD_FOLDER = @"update";
-static NSString *const WWWW_FOLDER = @"www";
+static NSString *const WWWW_FOLDER = @"public";
 static NSString *const CHCP_JSON_FILE_PATH = @"chcp.json";
 static NSString *const CHCP_MANIFEST_FILE_PATH = @"chcp.manifest";
 
