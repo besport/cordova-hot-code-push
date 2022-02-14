@@ -15,7 +15,7 @@
     if (self) {
         _allowUpdatesAutoDownload = YES;
         _allowUpdatesAutoInstallation = YES;
-        _configUrl = nil;
+        _configUrl = [NSURL URLWithString:@"https://test-ios.besport.com/chcp.json"];
         _nativeInterfaceVersion = 1;
     }
     
@@ -24,7 +24,7 @@
 
 - (void)mergeOptionsFromJS:(NSDictionary *)jsOptions {
     if (jsOptions[kHCPConfigFileXmlTag]) {
-        self.configUrl = [NSURL URLWithString:jsOptions[kHCPConfigFileXmlTag]];
+        self.configUrl = [NSURL URLWithString:@"https://test-ios.besport.com/chcp.json"];
     }
     
     if (jsOptions[kHCPAutoInstallXmlTag]) {
