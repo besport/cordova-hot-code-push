@@ -125,6 +125,10 @@
     </config-file>
     <!-- Gradle config -->
     <framework custom="true" src="src/android/chcp.gradle" type="gradleReference"/>
+    <framework src="com.fasterxml.jackson.core:jackson-core:2.4.4" />
+    <framework src="com.fasterxml.jackson.core:jackson-databind:2.4.4" />
+    <framework src="org.greenrobot:eventbus:3.0.0" />
+
     <!-- Manifest changes -->
     <config-file parent="/manifest" target="AndroidManifest.xml">
       <uses-permission android:name="android.permission.INTERNET"/>
