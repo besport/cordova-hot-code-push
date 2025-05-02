@@ -9,8 +9,8 @@ cdvPluginPostBuildExtras.add({
     }
 
     dependencies {
-        classpath 'com.fasterxml.jackson.core:jackson-core:2.4.4'
-        classpath 'com.fasterxml.jackson.core:jackson-databind:2.4.4'
-        classpath 'org.greenrobot:eventbus:3.0.0'
+        compile 'com.fasterxml.jackson.core:jackson-core:2.4.4'
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.4.4'
+        compile 'org.greenrobot:eventbus:3.0.0'
     }
 });
